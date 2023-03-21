@@ -16,7 +16,7 @@ remote_dependency: operational_dashboards {
   }
 
   override_constant: GCP_PROJECT {
-    value: "innovation-sandbox"
+    value: "innovation-sandbox-380216"
   }
 
   override_constant: REPORTING_DATASET {
@@ -53,3 +53,12 @@ remote_dependency: demand_sensing {
     value: "5"
   }
 }
+
+
+#remote_dependency: ga360_block {
+#  url: "https://github.com/llooker/google_ga360.git"
+#  ref: "master"
+#  override_constant: connection {
+#    value: "cortex_reporting"
+#  }
+#}
