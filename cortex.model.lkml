@@ -6,10 +6,8 @@
 
 
 include: "//operational_dashboards/models/cortex_sap_operational.model.lkml"
-include: "//operational_dashboards/views/*.view.lkml"
-include: "//operational_dashboards/LookML_Dashboard/*.dashboard"
-
-#include: "//demand_sensing/models/cortex_demand_sensing.model.lkml"
+#include: "//operational_dashboards/views/*.view.lkml"
+#include: "//operational_dashboards/LookML_Dashboard/*.dashboard"
 
 include: "refinements.lkml"
 
