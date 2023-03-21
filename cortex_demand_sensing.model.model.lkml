@@ -5,7 +5,6 @@ connection: "cortex_reporting"
 # include: "my_dashboard.dashboard.lookml"   # include a LookML dashboard called my_dashboard
 
 #include: "//demand_sensing/models/cortex_demand_sensing.model.lkml"
-
 #include: "refinements_demand_sensing.lkml"
 
 # # Select the views that should be a part of this model,
