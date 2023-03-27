@@ -38,7 +38,7 @@ remote_dependency: demand_sensing {
   }
 
   override_constant: GCP_PROJECT {
-    value: "innovation-sandbox"
+    value: "innovation-sandbox-380216"
   }
 
   override_constant: REPORTING_DATASET {
@@ -46,7 +46,7 @@ remote_dependency: demand_sensing {
   }
 
   override_constant: CLIENT {
-    value: "100"
+    value: "900"
   }
 
   override_constant: years_of_past_data {

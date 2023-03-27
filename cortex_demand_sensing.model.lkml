@@ -7,6 +7,13 @@ connection: "cortex_reporting"
 #include: "//demand_sensing/models/cortex_demand_sensing.model.lkml"
 #include: "refinements_demand_sensing.lkml"
 
+#datagroup: cortex_demand_sensing_datagroup {
+#  # sql_trigger: SELECT MAX(id) FROM etl_log;;
+#  max_cache_age: "1 hour"
+#}
+#
+#persist_with: cortex_demand_sensing_datagroup
+
 # # Select the views that should be a part of this model,
 # # and define the joins that connect them together.
 #
